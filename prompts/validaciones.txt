@@ -1,0 +1,55 @@
+====================================
+PROMPTS UTILIZADOS PARA EL SIMULADOR DE CRÉDITO
+===========================================
+
+PROMPT #1
+----------
+
+Necesito agregar validaciones a mi Simulador de Crédito del Banco del Pacífico. 
+Las validaciones deben ejecutarse al presionar el botón "Calcular Crédito".
+
+Reglas de validación:
+- Ingresos: obligatorio, número positivo, mínimo $100, máximo $100,000
+- Egresos: obligatorio, número positivo, mínimo $0, máximo $99,999
+- Monto: obligatorio, número positivo, mínimo $100, máximo $50,000
+- Plazo: obligatorio, número positivo, mínimo 1 año, máximo 30 años
+- Tasa interés: obligatorio, número positivo, mínimo 1%, máximo 30%
+
+Los errores deben mostrarse debajo de cada campo en color rojo.
+Si hay errores, no debe calcular el crédito.
+Dame el código completo de simulador.js actualizado con estas validaciones.
+
+PROMPT #2
+----------
+
+Además de las validaciones anteriores, agrega estas reglas adicionales:
+1. Los egresos no pueden ser mayores que los ingresos
+2. La cuota mensual no puede exceder la capacidad de pago
+3. Si la cuota mensual > capacidad de pago, mostrar un mensaje de advertencia
+
+Dame el código actualizado.
+
+PROMPT #3
+----------
+
+Necesito que modifiques también el HTML para mostrar los mensajes de error 
+debajo de cada campo. Agrega <span> o <div> para cada error con su id 
+correspondiente.
+
+Los estilos CSS para los errores deben ser:
+- Color rojo (#EF4444)
+- Fuente pequeña (12px)
+
+Dame el HTML, CSS y JS actualizado.
+
+PROMPT #4
+----------
+
+También al presionar el botón "Reiniciar", deben limpiarse todos los errores.
+
+Dame el código completo.
+
+
+
+
+

@@ -6,10 +6,3 @@ PROMPT #1
 ----------
 
 Mejora del diseño de css con IA
-
-PROMPT #2
-----------
-
-
-PROMPT #3
-----------
